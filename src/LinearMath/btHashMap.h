@@ -120,6 +120,7 @@ class btHashPtr
 
 public:
 
+    btHashPtr():m_pointer(NULL){}
 	btHashPtr(const void* ptr)
 		:m_pointer(ptr)
 	{
