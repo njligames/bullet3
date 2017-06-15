@@ -309,9 +309,9 @@ public:
 	SIMD_FORCE_INLINE btVector3& normalize() 
 	{
 		
+#if defined(BT_USE_SSE_IN_API) && defined (BT_USE_SSE)		
 		btAssert(!fuzzyZero());
 
-#if defined(BT_USE_SSE_IN_API) && defined (BT_USE_SSE)		
         // dot product first
 		__m128 vd = _mm_mul_ps(mVec128, mVec128);
 		__m128 z = _mm_movehl_ps(vd, vd);
@@ -347,7 +347,8 @@ public:
 		
 		return *this;
 #else	
-		return *this /= length();
+        return safeNormalize();
+		//return *this /= length();
 #endif
 	}
 
