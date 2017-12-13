@@ -2,3 +2,7 @@ _build/
 *.DS_Store
 _build/
 
+Debug-appletvos/
+Debug-appletvsimulator/
+Release-appletvos/
+Release-appletvsimulator/
