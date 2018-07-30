@@ -6,3 +6,4 @@ Debug-appletvos/
 Debug-appletvsimulator/
 Release-appletvos/
 Release-appletvsimulator/
+BUILD/
