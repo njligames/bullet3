@@ -7,3 +7,15 @@ Debug-appletvsimulator/
 Release-appletvos/
 Release-appletvsimulator/
 BUILD/
+Debug-iphoneos/
+Debug-iphonesimulator/
+MinsizeRel-appletvos/
+MinsizeRel-appletvsimulator/
+MinsizeRel-iphoneos/
+MinsizeRel-iphonesimulator/
+RelWithDebugInfo-appletvos/
+RelWithDebugInfo-appletvsimulator/
+RelWithDebugInfo-iphoneos/
+RelWithDebugInfo-iphonesimulator/
+Release-iphoneos/
+Release-iphonesimulator/
