@@ -19,3 +19,4 @@ RelWithDebugInfo-iphoneos/
 RelWithDebugInfo-iphonesimulator/
 Release-iphoneos/
 Release-iphonesimulator/
+.build/
